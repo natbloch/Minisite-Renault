@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensanshebrew-light-webfont.eot');
+    src: url('opensanshebrew-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('opensanshebrew-light-webfont.woff') format('woff'),
+    url('opensanshebrew-light-webfont.ttf') format('truetype'),
+    url('opensanshebrew-light-webfont.svg#open_sans_hebrewlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensanshebrew-regular-webfont.eot');
+    src: url('opensanshebrew-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensanshebrew-regular-webfont.woff') format('woff'),
+         url('opensanshebrew-regular-webfont.ttf') format('truetype'),
+         url('opensanshebrew-regular-webfont.svg#open_sans_hebrewregular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensanshebrew-bold-webfont.eot');
+    src: url('opensanshebrew-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('opensanshebrew-bold-webfont.woff') format('woff'),
+    url('opensanshebrew-bold-webfont.ttf') format('truetype'),
+    url('opensanshebrew-bold-webfont.svg#open_sans_hebrewbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensanshebrew-extrabold-webfont.eot');
+    src: url('opensanshebrew-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('opensanshebrew-extrabold-webfont.woff') format('woff'),
+    url('opensanshebrew-extrabold-webfont.ttf') format('truetype'),
+    url('opensanshebrew-extrabold-webfont.svg#open_sans_hebrewextra_bold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RenaultLifeֿBold';
+    src: url('RenaultLife-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RenaultLifeRegular';
+    src: url('RenaultLife-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RenaultLifeLight';
+    src: url('RenaultLife-Light.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}

@@ -1,0 +1,2798 @@
+@import url('../fonts/opensans/style.css');
+
+html, body {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 ,h3 ,h4 ,h5 ,div ,span ,p, strong, a, input, ul, li{
+    font-family: 'fbreforma', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    position: relative;
+    direction: rtl;
+    margin: 0 auto;
+    background: url(../images/desk_main.png);
+    background-size: 100% 100%;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vw;
+    overflow-y: hidden;
+}
+
+.head{
+    width: 100%;
+    top: 0;
+    right: 0;
+    color: #fff;
+    z-index: 9999;
+    position: relative;
+}
+
+.head .logo{
+    position: absolute;
+    margin-top: 0.7vw;
+    margin-right: 1.5vw;
+    width: 14.6vw;
+}
+.logo2{
+    width: 18.5vw;
+}
+
+.top {
+    width: 100%;
+    position: relative;
+    float: right;
+    background: #ffffff;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 10vw;
+    z-index: 999;
+    box-shadow: 1vw 0.1vw 1vw #444444;
+}
+
+.head_cars > div {
+    text-align: center;
+    position: absolute;
+    max-width: 10vw;
+    margin-top: 0.5vw;
+}
+
+
+.head_cars > div > span {
+    position: absolute;
+    width: fit-content;
+    font-family: 'RenaultLifeֿBold';
+    font-size: 1.1vw;
+    font-weight: 600;
+    top: 1.9vw;
+    right: 89.7%;
+}
+
+.head_cars > .small_car_megan_grand_coupe > span {
+    top: 1.6vw;
+    right: 105%;
+    font-size: 1vw;
+}
+
+.head_cars > .small_car_megan_grand_tour > span {
+    top: 2.1vw;
+    font-size: 1vw;
+    right: 97.7%;
+}
+
+.head_cars > .small_car_clio > span {
+    right: 93.7%;
+    top: 2.3vw;
+}
+
+.head_cars > .small_car_kadjar > span {
+    right: 96.7%;
+    top: 3vw;
+}
+
+.head_cars > div >img{
+  display: block;
+}
+.small_car_kangoo {
+    margin-right: 67.5%;
+}
+.head_cars .small_car_zoe {
+    margin-right: 75.3%;
+    margin-top: 4.8vw;
+    max-width: 8.5vw;
+}
+
+.head_cars .small_car_zoe span {
+    margin-right: -1vw;
+    margin-top: -1vw;
+    top: 2.6vw;
+    right: 96.7%;
+}
+
+.head_cars .small_car_scenic {
+    margin-right: 85.7%;
+    margin-top: 3.4vw;
+    max-width: 9.5vw;
+}
+
+.head_cars .small_car_scenic span {
+    top: 2.4vw;
+    right: 95.7%;
+    font-size: 1vw;
+}
+
+.head_cars .small_car_scenic .scenic-small {
+    position: relative;
+    top: 1.7vw;
+    width: 100%;
+    left: -0.5vw;
+}
+
+.small_car_twingo{
+    margin-right: 67.5%;
+}
+
+.head_cars .small_car_koleos {
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 4.8vw;
+    max-width: 10vw;
+}
+
+.head_cars .small_car_clio {
+    margin-right: 14%;
+    margin-top: 4.4vw;
+    max-width: 8.9vw;
+}
+
+.head_cars .small_car_zoe img {
+    width: 83%;
+}
+
+
+.head_cars .small_car_megan_grand_tour {
+    margin-right: 41%;
+    margin-top: 3.8vw;
+    max-width: 8.9vw;
+}
+
+.head_cars .small_car_megan_grand_coupe {
+    margin-right: 57.3%;
+    margin-top: 4.2vw;
+    max-width: 8.8vw;
+}
+
+.head_cars .small_car_capture {
+    margin-right: 34.5%;
+}
+
+.head_cars .small_car_kadjar {
+    margin-right: 26.5%;
+    max-width: 9.5vw;
+    margin-top: 3.7vw;
+}
+
+.botmain .stripslide .slick-dots li {
+    position: absolute;
+    top: -42.7vw;
+    opacity: 0;
+    max-width: 13vw;
+}
+
+.botmain .stripslide .slick-dots li button {
+    width: 14vw;
+    height: 7vw;
+    cursor: pointer;
+}
+#slick-slide10 {
+    right: 0.1%;
+}
+
+#slick-slide10 button {
+    width: 13.5vw;
+}
+#slick-slide11 {
+    right: 14.3%;
+    max-width: 11vw;
+}
+#slick-slide12 {
+    right: 26.9%;
+}
+
+#slick-slide12 button {
+    width: 13vw;
+}
+
+#slick-slide11 button {
+    width: 11vw;
+}
+#slick-slide13 {
+    right: 57.2%;
+    max-width: 16.5vw;
+    width: 17vw;
+}
+#slick-slide13 button {
+    width: 16.5vw;
+}
+#slick-slide14 {
+    right: 41.1%;
+    max-width: 15vw;
+    width: 15vw;
+}
+#slick-slide13 button {
+    width: 15vw;
+}
+#slick-slide15 {
+    right: 75%;
+    max-width: 10vw;
+}
+#slick-slide15 button {
+    width: 10.5vw;
+}
+#slick-slide16 {
+    right: 86.5%;
+}
+#slick-slide16 button {
+    width: 13vw;
+}
+#slick-slide17{
+    right: 88.5%;
+}
+.head_right .logo {
+    position: absolute;
+    margin-top: 0.8%;
+    margin-right: 2%;
+    max-width: 10vw;
+}
+
+.bot {
+    bottom: 0;
+    right: 0;
+    width: 99%;
+    height: 5vw;
+    margin-bottom: 0vw;
+    clear: both;
+    background: #fff;
+    z-index: 9999;
+    padding-right: 1%;
+    text-align: right;
+    direction: rtl;
+    position: absolute;
+    top: 45.5vw;
+    padding-top: 0;
+}
+
+.bot ul{padding: 0% 0 0% 0;}
+.bot ul li {
+    display: inline-block;
+    font-size: 1.2vw;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-top: 0.2vw;
+    direction: rtl;
+}
+
+.bot ul li.c0b{
+    background: #bf2327;
+    color: #fff;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c1 {
+    background: #1c4b3c;
+    color: #fff;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c2{
+    background: #0e6546;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+
+.bot ul li.c3{
+    background: #037f4f;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c4{
+    background: #139a59;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c4b{
+    background: #308ba1;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #fff;
+}
+.bot ul li.c5{
+    background: #18aa57;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c5b{
+    background: #268ccb;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #FFF;
+}
+
+
+
+.bot ul li.c6{
+    background: #187cba;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c6b{
+    background: #1271b9;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #000;
+}
+.bot ul li.c7{
+    background: #99cb4e;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c8{
+    background: #f7ee2c;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c9{
+    background: #feca26;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+
+
+
+.bot ul li.c10{
+    background: #f9a32d;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c11{
+    background: #f5862e;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c12{
+    background: #f2632e;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c13{
+    background: #f04e2c;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+.bot ul li.c14{
+    background: #cb2d36;
+    padding: 0 0.3%;
+    cursor: pointer;
+}
+
+.bot ul li.l5{
+    background: #268ccb;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bot ul li.l6 {
+    background: #187cba;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #fff;
+}
+.bot ul li.l3 {
+    background: #2ab189;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #FFF;
+}
+.bot ul li.l4{
+    background: #308ba1;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bot ul li.l7 {
+    background: #4270b3;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bot ul li.l0{
+    background: #bf2327;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bot ul li.l13 {
+    background: #f04e2c;
+    padding: 0 0.3%;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.bot ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.bot .mifrat{}
+.bot .mifratmob{
+    display: none;
+}
+.bot .mifrat img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    display: none;
+}
+.en_span {
+    display: inline-block;
+    font-family: 'RenaultLifeRegular';
+    font-size: 1vw;
+}
+.english {
+    font-family: RenaultLifeֿBold;
+}
+span.limited {
+    position: absolute;
+    top: -2vw;
+    left: 2vw;
+    display: inline-block;
+    background: #d71921;
+    color: #fff;
+    padding: 0.5vw;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    font-size: 1.2vw;
+}
+
+.right {
+    width: 56.6%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.txt_right{
+    position: absolute;
+    top: 8vw;
+    right: 0%;
+    text-align: center;
+    width: 46%;
+}
+.txt_right h1{
+    line-height: 2vw;
+    background: #000;
+    width: 65%;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 1vw;
+    margin-top: 1vw;
+}
+.txt_right .top{
+    display: block;
+    font-family: 'fbreforma_med', sans-serif;
+    font-size: 3.5vw;
+}
+.txt_right .bottom{
+    font-size: 2.5vw;
+}
+.txt_right h2{
+    font-size: 1.8vw;
+    margin-top: 1vw;
+}
+strong{
+    font-family: 'fbreforma_med', sans-serif;
+}
+.price{
+    position: absolute;
+    bottom: 1vw;
+    right: 4%;
+    background: #000;
+    color: #fff;
+    font-size: 2.8vw;
+    padding: 0 0.5vw;
+}
+.left{
+/*    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/main_clio.png);
+    background-size: 100%;
+    background-position: center;
+    background-position-y: -5vw;
+    background-repeat: no-repeat;*/
+
+    width: 100%;
+    position: absolute;
+    float: left;
+    /* background: url(../images/main.jpg); */
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* min-height: 42vw; */
+    height: 100%;
+    z-index: 3;
+}
+.slider {
+    width: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
+    direction: ltr;
+}
+.slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    height: 48vw;
+}
+
+.megan_grand_tour-small{
+    position: relative;
+    top: 0.7vw;
+}
+
+.slider ul li {
+    display: inline-block;
+    /* width: 100%; */
+    outline: none;
+    position: relative;
+    z-index: 1 !important;
+    top: 1vw;
+    opacity: 1 !important;
+    height: 44vw;
+    margin-top: 2vw;
+    background-position: 0vw 8vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slider ul li.sliderimlikadjar{
+  background-image: url(../images/main-kadjar.jpg);
+}
+
+.slider ul li.sliderimliscenic {
+    background-image: url(../images/main-scenic.jpg);
+}
+
+.slider ul li.sliderimlicaptur{
+  background-image: url(../images/main-captur.jpg);
+}
+
+.slider ul li.sliderimligrand{
+  background-image: url(../images/main-grand.jpg);
+}
+
+.slider ul li.sliderimligrandtour{
+  background-image: url(../images/main-grandtour.jpg);
+}
+
+
+.slider ul li.sliderimliclio{
+  background-image: url(../images/main-clio.jpg);
+}
+
+.slider ul li.sliderimlikoleos{
+  background-image: url(../images/main-koleos.jpg);
+}
+
+.slider ul li.sliderimlizoe{
+  background-image: url(../images/main-zoe.jpg);
+}
+
+
+.slider ul li.sliderimlikoleos .sliderim_div {
+    position: absolute;
+    top: 8.7vw;
+    line-height: 1;
+    text-align: center;
+    width: 59.4vw;
+    right: 0vw;
+}
+
+.english{
+      font-family: 'RenaultLifeֿBold' !important;
+}
+
+.slider .slick-current {
+    z-index: 999 !important;
+}
+.slider ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-position: 0 -3.5vw;
+}
+.slick-arrow {
+    position: absolute;
+    z-index: 9;
+    top: 24vw;
+    width: 2vw;
+    cursor: pointer;
+}
+.slick-arrow.la {
+    left: 2%;
+}
+.slick-arrow.ra {
+    right: 46%;
+}
+.stripslide {
+    direction: ltr;
+    overflow: hidden;
+}
+.stripslide ul {
+    padding: 0 !important;
+}
+.sliderim_div {
+    position: absolute;
+    top: 9.2vw;
+    line-height: 1;
+    text-align: center;
+    width: 59.5vw;
+    right: 0vw;
+}
+.sliderim .images_slider {
+    position: absolute;
+    top: 12vw;
+    width: 45vw;
+    right: 1vw;
+    height: 31vw;
+}
+.sliderim .images_slider .arrows {
+    position: absolute;
+    top: 46%;
+    width: 100%;
+    font-size: 46px;
+    z-index: 999;
+}
+.sliderim .images_slider .arrows i {
+    color: #959595;
+}
+.sliderim .images_slider .arrows .fa-chevron-right {
+    position: absolute;
+    right: 0
+}
+.sliderim .images_slider .images {
+    position: relative;
+}
+.sliderim .images_slider .images > div {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+.sliderim .images_slider .images > div.active {
+    opacity: 1;
+}
+.sliderim .images_slider .images > div img {
+    object-position: 0;
+}
+.sliderim .offer {
+    position: absolute;
+    top: 26.1vw;
+    width: 15vw;
+    right: 52.3vw;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 1.2vw;
+    line-height: 0.9;
+}
+
+
+
+.sliderim .sliderimlizoe .offer {
+  color: #FFF;
+}
+
+.sliderim .sliderimlizoe .offer h2{
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.sliderim .sliderimligrand .offer {
+    position: absolute;
+    top: 29.5vw;
+    width: 16vw;
+    right: 52vw;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 1.1vw;
+    line-height: 0.9;
+}
+
+.sliderim .sliderimligrandtour .offer {
+    position: absolute;
+    top: 27.4vw;
+    width: 16vw;
+    right: 52vw;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 1.3vw;
+    line-height: 2.5vw;
+    margin-top: 0vw;
+}
+
+
+.sliderim .sliderimligrandtour .offer span {
+    position: relative;
+    font-size: 2.3vw;
+    font-weight: 800;
+    top: 0.2vw;
+    line-height: 2.2vw;
+}
+
+.sliderim .offer span {
+    position: relative;
+    font-size: 3.5vw;
+    font-weight: 400;
+    top: 0.6vw;
+    line-height: 2.2vw;
+}
+
+
+.sliderim .offer.offergrand {
+    position: absolute;
+    top: 26.9vw;
+    width: 16vw;
+    right: 52vw;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 1.1vw;
+    line-height: 0.9;
+}
+
+
+.sliderim .offer.offergrand span{
+    position: relative;
+    font-size: 2.4vw;
+    font-weight: 800;
+    top: 0.4vw;
+    line-height: 2vw;
+}
+
+.sliderim .offer strong{
+    position: relative;
+    top: 0.8vw;
+}
+
+.sliderimlikoleos .offer {
+    position: absolute;
+    top: 17.9vw;
+    width: 15.3vw;
+    right: 52.2vw;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+}
+
+.sliderimliclio .offer {
+    position: absolute;
+    top: 17.7vw;
+    width: 15.3vw;
+    right: 52.2vw;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 2.5vw;
+    line-height: 4vw;
+}
+
+.sliderimliclio .sliderim_div {
+    position: absolute;
+    top: 9vw;
+    line-height: 1;
+    text-align: center;
+    width: 59.5vw;
+    right: 0vw;
+    right: 0vw;
+    line-height: 4vw;
+}
+
+.sliderim .offer .title,
+.sliderim .offer .subtitle {
+    color: #fece01;
+    font-weight: bold;
+}
+.sliderimligrand .title_span {
+    color: #ffffff;
+    display: block;
+    font-size: 3vw;
+    font-family: 'RenaultLifeֿBold';
+    font-weight: 800;
+}
+
+.sliderimligrandtour .title_span {
+    color: #ffffff;
+    display: block;
+    font-size: 3.5vw;
+    font-family: 'RenaultLifeֿBold';
+    font-weight: 800;
+}
+
+.sliderimligrandtour .subtxt_span {
+    color: #ffffff;
+    font-size: 3.7vw;
+    line-height: 1;
+    font-family: 'fbreforma', sans-serif;
+    position: relative;
+    bottom: 0vw;
+    display: block;
+    direction: rtl;
+    margin-top: 0.5vw;
+}
+
+.sliderimlikoleos .offer span {
+    position: relative;
+    font-size: 3.5vw;
+    font-weight: 400;
+    top: 1vw;
+    background-color: unset;
+    color: #FFF;
+    line-height: 4.2vw;
+}
+
+.sliderimlikoleos .offer .price {
+    position: relative;
+    font-size: 3.8vw;
+    font-weight: 400;
+    top: 0vw;
+    padding: 0;
+    padding-left: 0;
+    background-color: unset;
+    color: #FFF;
+    line-height: 4.2vw;
+}
+
+.sliderimliclio .offer span {
+    position: relative;
+    font-size: 3.5vw;
+    font-weight: 400;
+    top: 1vw;
+    background-color: unset;
+    text-align: center;
+    color: #FFF;
+    line-height: 3.2vw;
+}
+
+.sliderimliclio .offer .price {
+    position: relative;
+    font-size: 4.5vw;
+    font-weight: 400;
+    top: 0vw;
+    padding: 0;
+    padding-left: 0.3vw;
+    background-color: unset;
+    color: #FFF;
+    line-height: 4.2vw;
+}
+
+.title_span_yellow {
+    font-family: 'RenaultLifeֿBold';
+
+}
+
+
+.title_span {
+    color: #ffffff;
+    display: block;
+    font-size: 4.5vw;
+    font-family: 'RenaultLifeֿBold';
+    font-weight: 800;
+}
+
+.subtxt_span {
+    color: #ffffff;
+    font-size: 2.7vw;
+    line-height: 1;
+    font-family: 'fbreforma', sans-serif;
+    position: relative;
+    bottom: 0vw;
+    display: block;
+    direction: rtl;
+    margin-top: 0.5vw;
+}
+
+.sliderimligrand  .subtxt_span {
+    color: #ffffff;
+    font-size: 1.9vw;
+    line-height: 1;
+    font-family: 'fbreforma', sans-serif;
+    position: relative;
+    bottom: 0vw;
+    display: block;
+    direction: rtl;
+    margin-top: 0.7vw;
+}
+
+.title_span_yellow,
+.subtxt_span .bullet{
+    color: #fece01;
+}
+.price_span{
+    color: #ffffff;
+    font-size: 2vw;
+    font-family: 'fbreforma', sans-serif;
+    position: relative;
+    bottom: 0.5vw;
+}
+.title_span_megan{
+    color: #ffffff;
+    display: block;
+    font-size: 2.5vw;
+}
+currency{
+    font-family: 'fbreforma_med', sans-serif;
+    font-size: 3vw;
+}
+.black_strip{
+    z-index: 1;
+    position: absolute;
+    top: 14vw;
+    width: 25vw;
+    height: 25vw;
+    background-color: #ffce00;
+    left: 2vw;
+}
+img {
+    max-width: 100%;
+}
+
+.sliderimlikadjar .title_span {
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+    font-size: 4.2vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.slider ul li.sliderimlikadjar .sliderim_div {
+    top: 8vw;
+    padding-left: 0;
+    width: 59.5vw;
+    text-align: center;
+    right: 0vw;
+}
+
+  .slider ul li.sliderimlikadjar p {
+      text-align: center;
+      color: #FFF;
+      font-size: 1.8vw;
+      direction: rtl;
+      line-height: 2vw;
+      text-align: right;
+      margin-top: 0.3vw;
+      margin-right: 1.5vw;
+  }
+
+
+  .slider ul li.sliderimlikadjar.subtxt_span {
+    color: #ffffff;
+    font-size: 2.6vw;
+    line-height: 1;
+    font-family: 'fbreforma', sans-serif;
+    position: relative;
+    bottom: 0vw;
+    display: block;
+    direction: rtl;
+    margin-top: 0.1vw;
+}
+
+
+
+.slider ul li.sliderimlikadjar h4 {
+    color: #FFF;
+    direction: rtl;
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin-right: 0;
+    text-align: center;
+}
+
+.slider ul li.sliderimlikadjar h4 .price {
+    font-size: 4.4vw;
+    padding: 0;
+    bottom: 0;
+    font-weight: 400;
+    background: none;
+    line-height: 5vw;
+    position: relative;
+    top: 0vw;
+    right: 0.5vw;
+}
+
+
+.slider ul li.sliderimlikadjar .offer {
+    position: absolute;
+    top: 19.8vw;
+    width: 15vw;
+    right: 52.3vw;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 1.2vw;
+    line-height: 0.9;
+}
+
+.slider ul li.sliderimlikadjar.offer span {
+    position: relative;
+    font-size: 3vw;
+    font-weight: 400;
+    top: 0.6vw;
+    line-height: 3.2vw;
+}
+
+.left .ftext{
+    color: #fff;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 29%;
+}
+
+
+.sliderimliscenic .title_span {
+    font-size: 4vw;
+    line-height: 4vw;
+    margin-top: 0vw;
+}
+
+.sliderimliscenic .offer {
+    color: #FFF;
+    width: 15.8vw;
+    right: 52vw;
+    top: 27.2vw;
+}
+.sliderimliscenic .offer h4 {
+    font-size: 3.1vw;
+    font-weight: 400;
+}
+
+
+.sliderimliscenic .offer .price {
+    position: relative;
+    font-size: 4.4vw;
+    font-weight: 400;
+    background: none;
+    top: 0vw;
+    letter-spacing: -0.1vw;
+    padding: 0;
+    line-height: 5.6vw;
+}
+
+
+.ftxt {
+    margin-top: 2%;
+}
+
+.actc {
+    display: none;
+}
+.ftext h2 {
+    font-size: 1.6vw;
+    line-height: 0.5;
+}
+
+.sliderimlizoe .offer span {
+    position: relative;
+    font-size: 2.3vw;
+    font-weight: 400;
+    top: 0.8vw;
+    line-height: 2vw;
+}
+
+
+.ty .formbox {
+    position: absolute;
+    width: 22.5vw;
+    direction: rtl;
+    left: 0;
+    top: 8.2vw;
+    background-color: grey;
+    height: 28.35vw;
+}
+
+.ty .formbox h2 {
+    position: absolute;
+    top: 2.5vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 600;
+    left: 0;
+    width: 100%;
+    color: #000;
+    line-height: 4vw;
+		font-family: 'fbreforma_med';
+}
+
+.ty .formbox h5 {
+    position: absolute;
+    top: 16vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    left: 0;
+    width: 100%;
+    color: #000;
+    line-height: 1.9vw;
+		font-family: 'fbreforma_med';
+}
+
+.ty .formbox .social {
+    position: absolute;
+    width: 14.5vw;
+    height: 5vw;
+    background-image: url(../images/socialicons.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 21vw;
+    left: 4vw;
+}
+
+.ty .formbox .social .fb {
+    position: absolute;
+    width: 3.6vw;
+    height: 3.6vw;
+    top: -0.2vw;
+    left: -0.2vw;
+}
+
+.ty .formbox .social .insta{
+	position: absolute;
+	width: 3.6vw;
+	height: 3.6vw;
+	top: -0.2vw;
+	left: 5vw;
+}
+
+.ty .formbox .social .youtube {
+    position: absolute;
+    width: 4.3vw;
+    height: 3.3vw;
+    top: 0.2vw;
+    left: 10.5vw;
+}
+.left .ftext span{
+    font-size: 2.6vw;
+    font-weight: 400;
+    font-family: 'open_sans';
+}
+.left .ftext span:first-child{color: #fece00;}
+
+.left .chk{
+    color: #fff;
+    padding: 0;
+}
+.left .chk:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left .chk span{
+    /*float: left;*/
+    width: 93%;
+    font-size: 1.15vw;
+}
+.left .chk span:last-child{
+    /*float: none;*/
+    /*margin: 19% 0;*/
+/*    font-size: 14px;
+    width: auto;
+    color: #fff;*/
+}
+
+.formbox {
+    direction: rtl;
+    position: absolute;
+    left: 0vw;
+    z-index: 99;
+    top: 9.2vw;
+    width: 21.5vw;
+    height: 25vw;
+}
+
+.formbox .title {
+    position: relative;
+    color: #000000;
+    font-family: 'fbreforma_med', sans-serif;
+    width: 100%;
+    display: block;
+    text-align: center;
+    /* margin-bottom: 0.5vw; */
+    margin-top: 3vw;
+    font-size: 2.1vw;
+    top: -0.5vw;
+    line-height: 0.9;
+}
+
+.formbox .title span{
+    font-size: 1.5vw;
+    position: relative;
+    top: -0.2vw;
+}
+#myForm {
+    position: relative;
+    top: 0.5vw;
+}
+.formbox input{
+    box-sizing: border-box;
+    border-radius: 0;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 0;
+    font-size: 1.5vw;
+    clear: both;
+    height: 2.8vw;
+    padding-right: 0.5vw;
+}
+.formbox input[type=text]{}
+.formbox input[type=submit]{
+    -webkit-appearance: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    margin-bottom: 0.5vw;
+    height: 2.8vw;
+    font-family: 'fbreforma_med', sans-serif;
+}
+
+.formbox .chk {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-right: 25px;
+}
+
+.formbox input[type=checkbox]{
+    width: auto;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin: 2.6% -8% 0 0;
+    padding: 2% 0;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}
+.formbox input[type=checkbox]:checked{background: #fff;}
+
+
+::-webkit-input-placeholder {
+    color: #000000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #000000;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #000000;
+}
+
+:-ms-input-placeholder {
+    color: #000000;
+}
+
+.mobi {
+    display: none !important;
+}
+
+.ty .left .ftext {
+    margin-top: 2%;
+}
+
+.req {
+    color: #000;
+    padding: 0% 4%;
+    font-size: 1.15vw;
+    font-family: 'fbreforma_med', sans-serif;
+}
+
+.zoome {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    transition: 1s;
+    z-index: 9999999;
+    right: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+span.mish {
+    font-size: 1vw;
+    line-height: 1;
+    display: block;
+    width: 95%;
+    margin-top: 1vw;
+}
+#newsl {
+    display: none;
+}
+.chk label {
+    cursor: pointer;
+    font-size: 1.15vw;
+    color: #000;
+}
+.left .chk {
+    color: #000;
+}
+span.mish {
+    font-size: 1.2vw;
+    line-height: 1;
+    display: block;
+    width: 99vw;
+    margin-right: 0;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0.2vw;
+}
+.left .chk:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#newsl + label:before {
+    border: 1px solid #000;
+    content: "\00a0";
+    display: inline-block;
+    font: 1.2vw/1em sans-serif;
+    height: 1vw;
+    margin: 0px -25px 0px 0.5vw;
+    padding: 0;
+    vertical-align: middle;
+    width: 1vw;
+}
+#newsl:checked + label:before {
+    color: #000;
+    content: "\2713";
+    text-align: center;
+}
+.eng, .eng a{
+    font-family: 'RenaultLifeRegular';
+}
+.ketchup-error {
+    position: absolute;
+    width: 13vw;
+    z-index: 99999;
+    direction: rtl;
+}
+.ketchup-error ul {
+    margin: 0;
+    font-size: 0.7vw;
+    text-align: right;
+    color: #ffffff;
+    background: rgba(255, 0, 0, 0.9);
+    padding: 10px;
+    -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+    list-style: none;
+    line-height: 0.8vw;
+}
+.ncap {
+    position: absolute;
+    width: 39vw;
+    top: 9vw;
+    right: -43vw;
+    height: 3vw;
+    background: url(../images/ncap.png) no-repeat;
+    background-size: 100%;
+}
+.ketchup-error span {
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid red;
+    border-top: 10px solid rgba(255, 0, 0, 0.6);
+    border-bottom: 0;
+    margin-left: 10px;
+    left: 10px;
+    position: absolute;
+}
+/*.ty .left{
+    background: none;
+}
+.ty .ftext h2 {
+    font-size: 3.6vw;
+    padding: 3vw 2vw;
+    width: 80%;
+    margin: 0 auto;
+    line-height: unset;
+}*/
+#whisbiOTOfdcbfacfdeb .whisbi-oto__content .whisbi-oto__content-question {
+    direction: rtl;
+}
+
+@media screen and (max-width: 1000px) {
+    .mobi {
+        display: block !important;
+    }
+    html, body {
+        height: auto;
+        overflow-y: initial;
+    }
+    .en_span {
+        display: inline-block;
+        font-family: 'RenaultLifeRegular';
+        font-size: 2vw;
+    }
+    body.ty {
+        background: #fff;
+        height: 100%;
+    }
+    .ty .left .ftext {
+        margin-top: 0;
+    }
+    .ty .left{
+        background: none;
+    }
+    .ftext h2 {
+        font-size: 6vw;
+        line-height: unset;
+        /*display: none;*/
+    }
+
+    .left .ftext span {
+        font-size: 8vw;
+        margin-right: 2vw;
+    }
+
+    .wrapper {
+        width: 100%;
+        overflow: initial;
+        border: 0;
+        background: #ffffff;
+        height: 149vw;
+    }
+    .txt_title.mobi {
+        width: 33vw;
+        margin: 4vw auto;
+    }
+    .zoome {
+        display: none;
+    }
+    .head .logo {
+        width: 33vw;
+        margin-right: 3vw;
+        margin-top: 3vw;
+    }
+    .txt_right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+    .txt_right h1 {
+        background: #000;
+        width: 60%;
+        margin: 0 auto;
+        color: #ffffff;
+        padding: 0;
+        padding-bottom: 1vw;
+        margin-top: 1vw;
+        line-height: 4vw;
+    }
+    .logo2 {
+        width: 26.5vw;
+    }
+    .txt_right .top {
+        display: inline;
+        font-size: 6.5vw;
+        line-height: 7vw;
+        font-family: 'fbreforma_med', sans-serif;
+        letter-spacing: -.3vw;
+    }
+    .txt_right .bottom {
+        font-size: 5vw;
+        font-family: 'fbreforma', sans-serif;
+        letter-spacing: -.3vw;
+    }
+    .txt_right h2 {
+        font-size: 4.2vw;
+        letter-spacing: -.4vw;
+    }
+    .txt_down {
+        text-shadow: 3px 3px 7px rgba(0, 0, 0, 1);
+    }
+
+    .txt_down h2 {
+        font-weight: 600;
+        font-size: 8.3vw;
+        text-align: center;
+    }
+
+    .txt_down h3, .txt_down h3 .price:before {
+        font-size: 5.5vw;
+        text-align: center;
+    }
+
+    .txt_down .model {
+        font-size: 4vw;
+        width: 13vw;
+    }
+
+    .txt_down h3 .price {
+        font-size: 10vw;
+    }
+
+    button#enable-toolbar-trigger {
+        left: auto !important;
+        bottom: -5vw;
+        top: auto !important;
+    }
+
+    svg#enable-toolbar-trigger-svg {
+        width: 25px;
+    }
+
+    .txt_down h3 .price.old {
+        font-size: 5vw;
+    }
+
+    .main_txt {
+        background: rgba(0,0,0,0.2);
+        height: 126vw;
+    }
+
+    .right {
+        background: url(../images/mob_main1.png);
+        background-size: 100% 100%;
+        background-position-y: 0;
+        background-repeat: no-repeat;
+        height: 155vw;
+        width: 100%;
+    }
+    button.featherlight-close-icon.featherlight-close {
+        left: 0;
+    }
+
+    .bot {
+        bottom: 0vw;
+        right: 0;
+        width: 100%;
+        height: initial;
+        margin-bottom: 0vw;
+        clear: both;
+        background: unset;
+        z-index: 9999;
+        right: 0;
+        text-align: right;
+        direction: rtl;
+        position: relative;
+        top: unset;
+        padding-top: 0.5vw;
+        background: #fff;
+        padding: 0;
+    }
+    .bot_c{
+        padding-bottom: 3vw;
+        background: #fff;
+        position: relative;
+        padding-top: 3vw;
+    }
+    .bot ul {
+        margin-right: 0;
+    }
+
+    .bot ul li{
+        font-size: 2.6vw;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .actc {
+        display: block;
+        font-size: 20px;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .ftext {
+        /*display: none;*/
+    }
+
+    .mobhide {
+        display: none !important;
+    }
+
+    .left .ftext {
+        margin: 0;
+        font-size: 16px;
+        padding-top: 0px;
+    }
+
+    .ty .ftext h2 {
+        font-size: 10vw;
+    }
+
+    .formbox input[type=checkbox] {
+        margin: 1.6% -42px 0 0;
+    }
+    .bot a {
+        text-decoration: none;
+        color: #000;
+    }
+    .bot ul {
+        text-align: center;
+    }
+
+    .left {
+        height: auto;
+    }
+
+    .ty .left {
+        height: auto;
+        clear: both;
+    }
+
+    .ty .ftext h2, .ty .ftext {
+        display: block;
+    }
+
+    .ty .right {
+        /*height: 120vw;*/
+    }
+    .ty .wrapper {
+    width: 100%;
+    overflow: initial;
+    border: 0;
+    background: #000;
+    height: 147vw;
+}
+
+    .ty .formbox {
+        display: block;
+        background-color: grey;
+        height: 99vw;
+        top: 26vw;
+        width: 100%;
+    }
+
+    .ty .formbox h2 {
+    		position: absolute;
+    		top: 13.5vw;
+    		text-align: center;
+    		font-size: 17vw;
+    		font-weight: 600;
+    		left: 0;
+    		right: 0;
+    		color: #000000;
+    		line-height: 14.5vw;
+    }
+
+    .ty .formbox h5 {
+    		position: absolute;
+    		top: 62.5vw;
+    		text-align: center;
+    		font-size: 7vw;
+    		font-weight: 600;
+    		left: 0;
+    		width: 100%;
+    		color: #000;
+    		line-height: 6.9vw;
+    }
+
+    .ty .formbox .social {
+    	position: absolute;
+    	width: 64vw;
+    	height: 17vw;
+    	background-image: url(../images/socialicons.png);
+    	background-repeat: no-repeat;
+    	background-size: 100%;
+    	top: 84vw;
+    	left: 18vw;
+    }
+
+    .ty .formbox .social .fb {
+    	position: absolute;
+    	width: 16vw;
+    	height: 16vw;
+    	top: -1.2vw;
+    	left: -1.2vw;
+    }
+
+    .ty .formbox .social .insta {
+    	position: absolute;
+    	top: -0.4vw;
+    	left: 22.4vw;
+    	width: 16vw;
+    	height: 16vw;
+    }
+
+    .ty .formbox .social .youtube {
+    	position: absolute;
+    	top: 0.2vw;
+    	left: 46.5vw;
+    	width: 19vw;
+    	height: 15vw;
+    }
+
+
+    .formbox .chk {
+        padding-right: 0;
+    }
+    .req {
+        padding: 1% 4%;
+        font-size: 4vw;
+        font-family: 'fbreforma_med', sans-serif;
+    }
+    #c2c_btn {
+        height: 10vw;
+        cursor: pointer;
+        display: inline-block;
+        float: right;
+        z-index: 99;
+        /* box-shadow: 0px 7px 10px 0px #adadad; */
+        position: absolute;
+        top: 132vw;
+        left: 5vw;
+        width: 42vw;
+    }
+    body.ty #c2c_btn {
+      left: 4vw;
+  }
+    #c2c_btn h4 {
+        font-size: 5vw;
+        font-weight: 900;
+        color: #000000;
+        text-align: center;
+        line-height: .85em;
+        letter-spacing: -.5px;
+        margin: 0;
+        display: inline-block;
+        position: relative;
+        top: 3vw;
+        right: 0;
+        margin-left: 3vw;
+        font-family: 'fbreforma_med', sans-serif;
+    }
+    #c2c_btn #c2c_icon {
+      width: 42vw;
+      height: 12vw;
+      margin: unset;
+      margin-top: 0vw;
+      margin-left: 0vw;
+      background: url(../images/c2c.png) center center no-repeat;
+      background-size: 100%;
+      opacity: 1;
+      display: inline-block;
+      float: left;
+  }
+  #form_btn {
+      height: 10vw;
+      cursor: pointer;
+      display: inline-block;
+      float: right;
+      z-index: 99;
+      /* box-shadow: 0px 7px 10px 0px #adadad; */
+      position: absolute;
+      top: 132vw;
+      left: 94vw;
+      direction: rtl;
+  }
+    #form_btn h4 {
+        font-size: 5vw;
+        font-weight: 900;
+        color: #000000;
+        text-align: center;
+        line-height: .85em;
+        letter-spacing: -.5px;
+        margin: 0;
+        display: inline-block;
+        position: relative;
+        top: 3vw;
+        right: 0;
+        margin-right: 3vw;
+        font-family: 'fbreforma_med', sans-serif;
+    }
+    #form_btn #form_icon {
+        width: 42vw;
+        height: 12vw;
+        margin: unset;
+        margin-top: 0vw;
+        margin-left: 0vw;
+        background: url(../images/showform.png) center center no-repeat;
+        background-size: 100%;
+        opacity: 1;
+        display: inline-block;
+        float: left;
+    }
+    .chk {
+        width: 90%;
+        margin-right: 5%;
+    }
+    .chk label {
+        cursor: pointer;
+        font-size: 4vw;
+    }
+    #newsl + label:before {
+        content: "\00a0";
+        display: inline-block;
+        font: 3.2vw/1em sans-serif;
+        height: 3vw;
+        margin: 0px 0px 0px 5px;
+        padding: 0;
+        vertical-align: middle;
+        width: 3vw;
+    }
+    #newsl:checked + label:before {
+        content: "\2713";
+        text-align: center;
+    }
+    .formbox {
+
+        direction: rtl;
+        position: absolute;
+        top: unset;
+        width: 100%;
+        left: 0;
+        height: unset;
+        z-index: 9999;
+        bottom: 4%;
+        background: #fed502;
+        padding-top: 2vw;
+        padding-bottom: 15vw;
+        display: none;
+    }
+    .formbox .close-form {
+        position: absolute;
+        left: 5vw;
+        background: black;
+        color: #fff;
+        padding: 1vw 2vw;
+        font-family: 'RenaultLifeֿBold';
+    }
+    .formbox .title {
+        position: relative;
+        color: #000000;
+        font-family: 'fbreforma_med', sans-serif;
+        width: 100%;
+        display: block;
+        text-align: center;
+        /* margin-bottom: 0.5vw; */
+        /* margin-top: 0.5vw; */
+        font-size: 6.8vw;
+        top: 4vw;
+    }
+
+    .formbox .title span {
+    font-size: 5.5vw;
+    position: relative;
+    top: 0.8vw;
+}
+    #myForm {
+        top: 10vw
+    }
+    .formbox input {
+        box-sizing: border-box;
+        border-radius: 0;
+        width: 90%;
+        margin-left: 0.5vw;
+        border: none;
+        padding: 0;
+        font-size: 5.5vw;
+        margin: 0% 5% 2.5%;
+        clear: both;
+        height: 9.8vw;
+        padding-right: 1.5vw;
+    }
+    .formbox input[type=submit] {
+        -webkit-appearance: none;
+        cursor: pointer;
+        font-size: 1.5vw;
+        font-weight: 600;
+        background: #000;
+        color: #fff;
+        /* margin-top: 0.5vw; */
+        margin-bottom: 0.5vw;
+        height: 8.8vw;
+        font-size: 5.5vw;
+        font-family: 'fbreforma_med', sans-serif;
+    }
+    .price {
+        position: relative;
+        top: 44.4%;
+        right: 0;
+        background: unset;
+        color: #fff;
+        font-size: 3.8vw;
+        padding: 0 0.5vw;
+        width: 100%;
+        text-align: center;
+    }
+    .price_txt {
+        background: #000000;
+        font-size: 7vw;
+        padding: 0 2vw;
+    }
+    .ui-dialog{
+        width: 100% !important;
+        top: 16vw!important;
+        background: #fdce00 !important;
+        height: 90% !important;
+    }
+    .ui-widget-header {
+         border: 0px !important;
+         background: unset !important;
+         color: unset !important;
+         font-weight: unset !important;
+    }
+
+    .ui-widget .ui-widget {
+       background: unset;
+        border: 0px;
+        color: black;
+    }
+    .ui-dialog .ui-dialog-titlebar-close {
+        left: .3em;
+        outline: #ffffff;
+    }
+    .ui-button-icon {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+    .ui-button .ui-icon {
+        background-image: url(../images/ui-icons_444444_256x240.png);
+    }
+    .ketchup-error ul {
+      margin: 0;
+      font-size: 3vw;
+      text-align: right;
+      color: #ffffff;
+      background: rgba(255, 0, 0, 0.9);
+      padding: 10px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      list-style: none;
+      line-height: 3vw;
+    }
+    .ketchup-error {
+        position: absolute;
+        width: 55vw;
+        z-index: 99999;
+    }
+    .slider {
+      width: 100%;
+      position: absolute;
+      right: 0;
+      top: 0vw;
+      direction: ltr;
+  }
+      .slider ul {
+      height: 149vw !important;
+    }
+
+    .slider ul li {
+    display: inline-block;
+    /* width: 100%; */
+    outline: none;
+    z-index: 1 !important;
+    opacity: 1 !important;
+    height: 153vw;
+    background-position: 0vw 0vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0;
+}
+
+    .slider ul li.sliderimlikadjar{
+      background-image: url(../images/main-kadjar-mob.jpg);
+    }
+
+    .slider ul li.sliderimlicaptur{
+      background-image: url(../images/main-captur-mob.jpg);
+    }
+
+    .slider ul li.sliderimligrand{
+      background-image: url(../images/main-grand-mob.jpg);
+    }
+
+    .slider ul li.sliderimligrandtour{
+      background-image: url(../images/main-grandtour-mob.jpg);
+    }
+
+    .slider ul li.sliderimliclio{
+      background-image: url(../images/main-clio-mob.jpg);
+    }
+
+    .slider ul li.sliderimlikoleos{
+      background-image: url(../images/main-koleos-mob.jpg);
+    }
+
+    .slider ul li.sliderimlizoe{
+      background-image: url(../images/main-zoe-mob.jpg);
+    }
+
+    .slider ul li.sliderimliscenic {
+        background-image: url(../images/main-scenic-mob.jpg);
+    }
+
+    .sliderim .image-block {
+        height: 118vw !important;
+    }
+    .slick-arrow {
+        position: absolute;
+        z-index: 9;
+        top: 58vw;
+        width: 8vw;
+        cursor: pointer;
+    }
+    .slick-arrow.la {
+        right: 1%;
+    }
+    .slick-arrow.ra {
+        right: 1%;
+    }
+    .sliderim_div {
+        top: 5vw;
+        line-height: 5vw;
+        width: 100vw;
+        right: 0;
+        text-align: left;
+        padding-left: 2vw;
+        box-sizing: border-box;
+    }
+    .title_span {
+        color: #ffffff;
+        font-family: 'RenaultLifeRegular';
+        display: block;
+        font-size: 8.3vw;
+        line-height: 1;
+    }
+
+    .sliderimligrand .title_span {
+        color: #ffffff;
+        display: block;
+        font-family: 'RenaultLifeֿBold';
+        font-weight: 800;
+        font-size: 5.1vw;
+    }
+
+
+
+
+    .div_megan {
+        text-align: center;
+        position: relative;
+        top: -36vw;
+        width: 50%;
+        line-height: 5vw;
+        left: unset;
+        margin-left: 54vw;
+    }
+
+    .smallcarmob{
+    margin-top: -12vw;
+}
+
+    .subtxt_span {
+    font-size: 4vw;
+    line-height: 1.9;
+}
+
+    .sliderimligrand .subtxt_span {
+      color: #ffffff;
+      font-size: 2.9vw;
+      line-height: 1;
+      font-family: 'fbreforma', sans-serif;
+      position: relative;
+      bottom: 0vw;
+      display: block;
+      direction: rtl;
+      margin-top: 0.7vw;
+  }
+
+  .sliderim .offer.offergrand {
+      position: absolute;
+      top: 78.5vw;
+      width: 78vw;
+      right: 11vw;
+      color: #000;
+      text-align: center;
+      font-weight: 400;
+      direction: rtl;
+      font-size: 2.3vw;
+      line-height: 0.9;
+  }
+
+
+  .sliderim .offer.offergrand span {
+      position: relative;
+      font-size: 4.5vw;
+      font-weight: 800;
+      top: 1.2vw;
+      line-height: 2vw;
+  }
+
+    .sliderim .images_slider {
+        top: 28vw;
+        width: 98vw;
+        height: 70vw;
+    }
+    .sliderim .images_slider .arrows {
+        top: 36%;
+    }
+    .sliderim .offer {
+      top: 76vw;
+      width: 36vw;
+      right: 20vw;
+      font-size: 3.2vw;
+      color: #FFF;
+  }
+
+  .slider ul li.sliderimlikoleos .sliderim_div {
+    position: absolute;
+    top: 5.2vw;
+    line-height: 1;
+    text-align: left;
+    width: 100vw;
+    right: 0vw;
+}
+
+  .sliderim .offer span {
+    position: relative;
+    font-size: 9.7vw;
+    font-weight: 800;
+    top: 1.1vw;
+    line-height: 7.6vw;
+}
+
+.sliderim .offer strong {
+    position: relative;
+    top: 1.8vw;
+}
+
+    .price_span {
+        color: #000;
+        font-size: 5vw;
+        font-family: 'fbreforma', sans-serif;
+        position: relative;
+        bottom: unset;
+        direction: rtl;
+        line-height: 8vw;
+    }
+
+
+    a.ctc {
+    position: absolute;
+    width: 42vw;
+}
+
+
+.slider ul li.sliderimlikadjar .offer {
+    position: absolute;
+    top: 73.3vw;
+    width: 38vw;
+    right: 19.3vw;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    font-size: 1.2vw;
+    line-height: 0.9;
+}
+
+.sliderimlikoleos .offer {
+  top: 71vw;
+    width: 36vw;
+    right: 32vw;
+    color: #FFF;
+    font-size: 5vw;
+    font-weight: 400;
+    line-height: 8vw;
+  }
+.sliderimlikoleos .offer span{
+  position: relative;
+  font-size: 6.7vw;
+  font-weight: 400;
+  top: 1.1vw;
+  line-height: 7.6vw;
+}
+
+.sliderimlikoleos .offer .price {
+    position: relative;
+    font-size: 8.5vw;
+    font-weight: 400;
+    top: 0vw;
+    padding: 0;
+    padding-left: 0;
+    background-color: unset;
+    right: 1vw;
+    color: #FFF;
+    line-height: 4.2vw;
+}
+.slider ul li.sliderimlikadjar .offer span {
+    position: relative;
+    font-size: 7.7vw;
+    font-weight: 800;
+    top: 1.1vw;
+    line-height: 10.5vw;
+}
+
+.sliderimligrandtour .sliderim_div {
+    top: 4vw;
+    line-height: 5vw;
+    width: 100vw;
+    right: 0;
+    text-align: left;
+    padding-left: 2vw;
+    box-sizing: border-box;
+}
+
+.sliderimligrandtour .title_span {
+    color: #ffffff;
+    display: block;
+    font-size: 5vw;
+    font-family: 'RenaultLifeֿBold';
+    font-weight: 800;
+    line-height: 6vw;
+}
+
+.sliderimligrandtour .subtxt_span {
+    color: #ffffff;
+    font-size: 5.7vw;
+    line-height: 1;
+    font-family: 'fbreforma', sans-serif;
+    position: relative;
+    bottom: 0vw;
+    display: block;
+    direction: rtl;
+    margin-top: 0.5vw;
+}
+
+.sliderim .sliderimligrandtour .offer {
+    position: absolute;
+    top: 81vw;
+    width: 36vw;
+    right: 31vw;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    direction: rtl;
+    letter-spacing: unset;
+    font-size: 2.9vw;
+    line-height: 5.5vw;
+    margin-top: 0vw;
+}
+
+
+.sliderim .sliderimligrandtour .offer span {
+    position: relative;
+    font-size: 5.3vw;
+    font-weight: 800;
+    top: 0.6vw;
+    line-height: 2.2vw;
+}
+
+
+.sliderim .sliderimlizoe .offer {
+    color: #FFF;
+    font-size: 3vw;
+    line-height: 4.3vw;
+    top: 78vw;
+}
+
+.sliderim .sliderimlizoe .offer span {
+    position: relative;
+    font-size: 5vw;
+    font-weight: 800;
+    top: 1.1vw;
+    line-height: 5.5vw;
+}
+
+.sliderimlikadjar .title_span {
+    color: #ffffff;
+    display: block;
+    font-family: 'RenaultLifeֿBold';
+    font-weight: 800;
+    font-size: 7.6vw;
+    text-align: left;
+}
+
+.sliderimliscenic .title_span {
+    font-size: 5.5vw;
+    line-height: 5vw;
+    margin-top: 4vw;
+}
+
+.sliderimliscenic .offer {
+    top: 76.5vw;
+    width: 33vw;
+    right: 34.3vw;
+    font-size: 3.2vw;
+    color: #FFF;
+}
+
+.sliderimliscenic .offer h4{
+    font-size: 5vw;
+}
+
+.sliderimliscenic .offer span {
+    position: relative;
+    font-size: 7.7vw;
+    font-weight: 400;
+    top: 1.1vw;
+    line-height: 7.6vw;
+}
+
+.sliderimliscenic .offer .price {
+    position: relative;
+    font-size: 8.7vw;
+    font-weight: 400;
+    top: 0;
+    padding: 0;
+    letter-spacing: 0;
+    line-height: 8.6vw;
+}
+
+.sliderimliclio .sliderim_div {
+    position: absolute;
+    top: 5.5vw;
+    text-align: left;
+    width: 100vw;
+    right: 0vw;
+    line-height: 4vw;
+}
+
+.sliderimliclio .offer {
+  top: 71vw;
+  width: 36vw;
+  right: 32vw;
+  color: #FFF;
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 8vw;
+}
+
+.sliderimliclio .offer .price {
+    position: relative;
+    font-size: 8.5vw;
+    font-weight: 400;
+    top: 0vw;
+    padding: 0;
+    padding-left: 0;
+    background-color: unset;
+    color: #FFF;
+    right: 0.5vw;
+    line-height: 4.2vw;
+}
+
+.sliderimliclio .offer span {
+    position: relative;
+    font-size: 6.7vw;
+    font-weight: 400;
+    top: 1.1vw;
+    line-height: 7.6vw;
+}
+
+.sliderimlikadjar .title_span span {
+    font-family: 'RenaultLifeֿBold';
+    color: #fdcf0a;
+}
+
+  .sliderimlikadjar  .subtxt_span {
+font-size: 4vw;
+line-height: 4.9vw;
+margin-top: 1vw;
+}
+
+
+.slider ul li.sliderimlikadjar .sliderim_div {
+top: 2vw;
+padding-left: 3vw;
+width: 100vw;
+right: 0;
+text-align: left;
+}
+
+
+  .slider ul li.sliderimlikadjar p{
+    text-align: center;
+    color: #FFF;
+    font-size: 5.3vw;
+    direction: rtl;
+    line-height: 5.5vw;
+    margin-top: 2vw;
+}
+
+.slider ul li.sliderimlikadjar h4 {
+    color: #FFF;
+    text-align: center;
+    direction: rtl;
+    font-size: 6vw;
+    font-weight: 400;
+    margin-top: 2vw;
+}
+
+.slider ul li.sliderimlikadjar h4 .price {
+    font-size: 10vw;
+    padding: 0;
+    bottom: 0;
+    font-weight: 600;
+    position: relative;
+    right: 1vw;
+    top: 0vw;
+}
+
+    currency {
+        font-family: 'fbreforma_med', sans-serif;
+        font-size: 10vw;
+        position: relative;
+    }
+    .main_megan_mob_img {
+        position: relative;
+        top: 18vw;
+    }
+    span.mish {
+    font-size: 3.3vw !important;
+    line-height: 1.4;
+    display: block;
+    width: 90vw;
+    margin: 1vw auto 1vw;
+    padding-top: 1vw;
+    text-align: right;
+    margin-bottom: 2vw;
+    color: #000000;
+}
+    .sliderim_div2 {
+        color: #000000;
+        z-index: 999999;
+        position: absolute;
+        top: 25vw;
+        width: 100%;
+        right: 0;
+        text-align: center;
+    }
+    .slider ul li img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-position: 0;
+    }
+    .sliderim_div2 .title {
+        display: block;
+        font-family: 'RenaultLifeֿBold';
+        font-size: 8.5vw;
+    }
+    .sliderim_div2 .subtitle {
+        display: block;
+        font-size: 7.2vw;
+        position: relative;
+        line-height: 1;
+    }
+    .sliderim_div2_megan{
+        top: 29vw;
+    }
+    .sliderim_div2_megan .title {
+        font-size: 5.5vw !important;
+    }
+    .sliderim_div2_megan .subtitle {
+        font-size: 6.2vw !important;
+    }
+
+    .sliderim .sliderimlizoe .offer h2 {
+        font-weight: 400;
+        font-size: 5vw;
+    }
+
+    .carDialog{
+        height: auto !important;
+        position: absolute;
+        z-index: 999999;
+        background: #ffffff!important;
+        padding: unset !important;
+        width: 100% !important;
+    }
+    .carmobChosen {
+    position: absolute;
+    width: 100%;
+    height: 17vw;
+    opacity: 0;
+    border: 0px;
+}
+    .carmobchoosen0 {
+      position: absolute;
+      top: 121.5vw;
+      height: 23vw;
+    }
+    .carmobchoosen1 {
+        top: 98vw;
+        height: 23vw;
+    }
+    .carmobchoosen2 {
+        top: 0vw;
+        height: 20vw;
+    }
+    .carmobchoosen3 {
+        top: 40vw;
+        height: 19vw;
+    }
+    .carmobchoosen4 {
+        top: 19.5vw;
+        height: 20vw;
+    }
+    .carmobchoosen5 {
+        top: 59vw;
+        height: 19vw;
+    }
+
+    .carmobchoosen6 {
+        top: 78vw;
+        height: 20vw;
+    }
+
+    .head_right .logo {
+        position: absolute;
+        margin-top: 2%;
+        margin-right: 2%;
+        width: 27vw;
+        height: 8vw;
+        z-index: 5;
+        max-width: unset;
+    }
+    .all-models-btn {
+        position: absolute;
+        margin-top: 13.5vw;
+        margin-right: 1vw;
+        max-width: 22vw;
+        z-index: 999;
+        right: 0;
+    }
+    .all-models-btn{
+        display: block;
+    }
+    .all-models-btn-x{
+        display: none;
+        position: absolute;
+        margin-top: 5%;
+        margin-right: 0%;
+        max-width: 25vw;
+        z-index: 999;
+        left: 0;
+    }
+    .slick-dots{
+        display: none !important;
+    }
+    .carDialog .ui-dialog-titlebar {
+        display: none;
+    }
+    .ncap {
+    width: 80vw;
+    top: 19vw;
+    right: 10vw;
+    height: 9vw;
+}
+
+
+}
+
+@-webkit-keyframes shaker {
+    0%, 90%, 100% {
+        -webkit-transform: translateX(0);
+    }
+    92%, 97% {
+        -webkit-transform: translateX(-5px);
+    }
+
+    95%, 99% {
+        -webkit-transform: translateX(5px);
+    }
+}
+
+@keyframes shaker {
+    0%, 90%, 100% {
+        transform: translateX(0);
+    }
+    92%, 97% {
+        transform: translateX(-5px);
+    }
+
+    95%, 99% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes logo_g {
+    0%{
+        transform: rotate(0deg);
+    }
+    15%, 45%, 75%{
+        transform: rotate(15deg);
+    }
+    30%, 60%, 90%{
+        transform: rotate(-15deg);
+    }
+}
+@-webkit-keyframes logo_g {
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    15%, 45%, 75%{
+        -webkit-transform: rotate(15deg);
+    }
+    30%, 60%, 90%{
+        -webkit-transform: rotate(-15deg);
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation: fadeInUp 1s 1;
+    animation: fadeInUp 1s 1;
+}
+
+@font-face {
+    font-family: 'fbreforma';
+    src: url('../fonts/fbreforma/fbreformaen-regular-webfont.eot');
+    src: url('../fonts/fbreforma/fbreformaen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fbreforma/fbreformaen-regular-webfont.woff') format('woff'),
+    url('../fonts/fbreforma/fbreformaen-regular-webfont.ttf') format('truetype'),
+    url('../fonts/fbreforma/fbreformaen-regular-webfont.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fbreforma_med';
+    src: url('../fonts/fbreforma/FbReforma-Mediumwebfont.eot');
+    src: url('../fonts/fbreforma/FbReforma-Mediumwebfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fbreforma/FbReforma-Mediumwebfont.woff') format('woff'),
+    url('../fonts/fbreforma/FbReforma-Mediumwebfont.ttf') format('truetype'),
+    url('../fonts/fbreforma/FbReforma-Mediumwebfont.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+iframe[name='google_conversion_frame'] {
+    height: 0 !important;
+    width: 0 !important;
+    line-height: 0 !important;
+    font-size: 0 !important;
+    margin-top: -13px;
+    float: left;
+}
+
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation: fadeInUp 1s 1;
+    animation: fadeInUp 1s 1;
+}
+/**
+
+-webkit-appearance: none;
+border-radius: 0;
+color: #36a3d9;
+**/
+
+ul.sliderim{
+  visibility: hidden;
+}
+
+ul.sliderim.slick-initialized{
+  visibility: visible;
+}

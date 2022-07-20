@@ -1,0 +1,108 @@
+@import url('../fonts/opensans/style.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg1.jpg")center no-repeat fixed;
+    background-size: cover;
+}
+
+
+h1, h2 ,h3 ,h4 ,h5 ,div ,span ,p, strong, a, input, ul, li{
+    font-family: 'open_sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+    background: #fece00;
+    border: 1px solid #fece00;
+    margin-top: 15px;
+}
+
+img.ty_logo {
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.main {
+    display: block;
+    clear: both;
+}
+
+.left .ftext {
+	margin-top: 300px;
+}
+
+.header {
+    background: #fff;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+img.ty_title {
+    margin: 75px auto;
+    display: block;
+}
+
+img.ty_box {
+    display: block;
+    margin: 50px auto;
+}
+
+
+.ty_mob {
+	display: block;
+    text-align: center;
+    direction: rtl;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.ty_mob span {
+	font-size: 4vw;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0px 0px 6px rgba(150, 150, 150, 1);
+}
+
+@media screen and (max-width: 640px){
+	.mobhide {
+		display: none !important;
+	}
+		
+	.ty_mob {
+		padding-top: 30%;
+		padding-bottom: 30%;
+	}
+	
+	.ty_mob span {
+		font-size: 30px;
+	}
+	
+	img {
+		max-width: 90%;
+	}
+	
+	img.ty_logo {
+		float: none;
+	}
+	
+	.header {
+		text-align: center;
+	}
+	
+	.wrapper {
+		width: 100%;
+		margin-top: 0;
+		border: 0;
+	}
+	
+    .msg{
+        margin: 33% auto;
+    }
+}
